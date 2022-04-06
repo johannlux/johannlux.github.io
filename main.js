@@ -307,7 +307,7 @@ $(function() {
 		});
 
 
-    // Redirect, default after 180000ms = 180s = 3min
+    // Redirect, default after 80000ms = 80s = 1,2min
     setTimeout(function() {
     
     $(window).unbind('beforeunload');
