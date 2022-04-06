@@ -23,7 +23,7 @@ $(function() {
 	// If the study is called with a parameter for redirection, as explained in the documentation, this value is overwritten. 
 	// To the redirect link, the following information will be appended: (1) participant number, (2) condition, (3) username, (4) description submitted by participant. These variables can be extracted from the link, saved as data, and used for linking the Social Media Ostracism paradigm to subsequent tasks and measures. See documentation for more details.
 
-    settings.defaultredirect = 'http://smpo.github.io/preview/index.html?c=2&p=1&redirect=https%3A%2F%2Frug.eu.qualtrics.com%2Fjfe%2Fpreview%2FSV_5nfeLKvPCg9wy4m%3FQ_CHL%3Dpreview%26Q_SurveyVersionID%3Dcurrent';
+    settings.defaultredirect = 'https://rug.eu.qualtrics.com/jfe/form/SV_5nfeLKvPCg9wy4m';
 
 	
 	// **Tasklength**     
