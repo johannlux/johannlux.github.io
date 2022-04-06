@@ -23,7 +23,7 @@ $(function() {
 	// If the study is called with a parameter for redirection, as explained in the documentation, this value is overwritten. 
 	// To the redirect link, the following information will be appended: (1) participant number, (2) condition, (3) username, (4) description submitted by participant. These variables can be extracted from the link, saved as data, and used for linking the Social Media Ostracism paradigm to subsequent tasks and measures. See documentation for more details.
 
-    settings.defaultredirect = 'http://fppvu.qualtrics.com/SE/?SID=SV_a9u9MdnpIRuxctT';
+    settings.defaultredirect = 'https://rug.eu.qualtrics.com/jfe/form/SV_5nfeLKvPCg9wy4m';
 
 	
 	// **Tasklength**     
@@ -39,7 +39,7 @@ $(function() {
     settings.condition_1_likes = [12000, 9999999]; 
 
     // In condition 2, user will receive 6 likes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
-    settings.condition_2_likes = [10000, 15000,35000,80000,1320000,150000];  
+    settings.condition_2_likes = [10000, 15000,35000,80000,132000,150000];  
     
     // In condition 3, user will receive 9 likes at the following timepoints (in ms). Default: [10000, 11000,15000,35000,80000,100000,110000,150000,20000]
     settings.condition_3_likes = [10000, 11000,15000,35000,80000,100000,110000,150000,20000]; 
