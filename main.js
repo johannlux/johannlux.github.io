@@ -265,7 +265,7 @@ $(function() {
   		{ 
   			times[i] = +times[i]; 
   			
-  			themsg = usernames[i] + " liked your post";
+  			themsg = "Someone liked your post";
 
   			setTimeout(function(themsg) {
   				that.text(parseInt(that.text()) + 1);
