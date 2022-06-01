@@ -23,7 +23,7 @@ $(function() {
 	// If the study is called with a parameter for redirection, as explained in the documentation, this value is overwritten. 
 	// To the redirect link, the following information will be appended: (1) participant number, (2) condition, (3) username, (4) description submitted by participant. These variables can be extracted from the link, saved as data, and used for linking the Social Media Ostracism paradigm to subsequent tasks and measures. See documentation for more details.
 
-    settings.defaultredirect = 'https://rug.eu.qualtrics.com/jfe/form/SV_5nfeLKvPCg9wy4m';
+    settings.defaultredirect = 'https://rug.eu.qualtrics.com/jfe/form/SV_4N1v1cxfu0rD0rA';
 
 	
 	// **Tasklength**     
@@ -152,7 +152,7 @@ $(function() {
   			error = 1;
   			errormsg = 'Please enter text';
   		}
-  		if($('#description').val() !== "" && $('#description').val().length < 140) {
+  		if($('#description').val() !== "" && $('#description').val().length < 50) {
 		
   			error = 1;
   			errormsg = 'Please write a bit more';
